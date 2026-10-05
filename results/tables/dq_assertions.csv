@@ -1,0 +1,18 @@
+check_name,failed_rows,status
+at most one primary country per title,0,PASS
+bridge countries exist in fact + dim,0,PASS
+bridge genres exist in fact + dim,0,PASS
+content type is Movie or TV Show,0,PASS
+date key exists in dim_date,0,PASS
+every clean title is in fact_titles,0,PASS
+"every movie has minutes, every show has seasons",0,PASS
+every title has at least one genre,0,PASS
+every title with a country has a primary,0,PASS
+no blank country / genre names,0,PASS
+no duplicate title key left,0,PASS
+no runtime left in rating,0,PASS
+rating exists in dim_rating,0,PASS
+rating mix sums to fact rows,0,PASS
+release year in 1900..2021,0,PASS
+show_id unique in fact,0,PASS
+yearly adds sum = titles with a date,0,PASS

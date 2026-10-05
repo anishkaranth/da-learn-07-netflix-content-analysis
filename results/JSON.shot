@@ -1,0 +1,47 @@
+{
+ "snapshot": "headline KPIs + run config",
+ "project": "da-learn-07-netflix-content-analysis",
+ "source_mode": "full",
+ "config": {"engine": "duckdb (local, full data); Databricks skipped - workspace resource quota", "sql_dialect": "Spark/Databricks SQL + DuckDB shims (sql/00)", "snapshot": "titles on Netflix (global catalogue as scraped) up to 2021-09-25; 2021 is a partial year", "multi_value": "country / genre / director / cast split into bridge tables; co-productions count once per country", "dedupe": "same lower(title) + type + release year + director -> keep earliest date_added", "repair": "3 rows with runtime in rating moved back to duration", "sample_rule": "data/raw = first title of every rating + per-year first adds + edge cases (duplicates, runtime-in-rating, missing date, stray comma country), CSV"},
+ "headline": {"titles": 8803, "movies": 6128, "tv_shows": 2675, "movie_pct": 69.61, "countries": 122, "genres": 42, "directors": 4993, "cast_members": 36437, "avg_movie_minutes": 99.6, "median_movie_minutes": 98.0, "avg_tv_seasons": 1.76, "single_season_show_pct": 67.03, "adult_rated_pct": 45.5, "us_primary_pct_of_known": 40.27, "added_same_year_pct": 37.02, "median_years_release_to_add": 1.0, "added_2018_2021_pct": 79.95, "first_added_key": 20080101, "last_added_key": 20210925, "oldest_release_year": 1925},
+ "top": {
+  "top_countries": [
+   {"country": "United States", "titles": 3689},
+   {"country": "India", "titles": 1046},
+   {"country": "United Kingdom", "titles": 806},
+   {"country": "Canada", "titles": 445},
+   {"country": "France", "titles": 393}
+  ],
+  "top_genres": [
+   {"genre": "International Movies", "titles": 2749},
+   {"genre": "Dramas", "titles": 2425},
+   {"genre": "Comedies", "titles": 1672},
+   {"genre": "International TV Shows", "titles": 1350},
+   {"genre": "Documentaries", "titles": 869}
+  ],
+  "peak_add_years": [
+   {"year_added": 2019, "titles": 2015, "tv_share_pct": 29.38},
+   {"year_added": 2020, "titles": 1879, "tv_share_pct": 31.67},
+   {"year_added": 2018, "titles": 1649, "tv_share_pct": 24.98}
+  ],
+  "audience": [
+   {"audience": "1 Kids", "pct_of_titles": 10.31},
+   {"audience": "2 Older kids / family", "pct_of_titles": 13.06},
+   {"audience": "3 Teens", "pct_of_titles": 30.1},
+   {"audience": "4 Adults", "pct_of_titles": 45.5},
+   {"audience": "5 Not rated / unknown", "pct_of_titles": 1.02}
+  ],
+  "content_age": [
+   {"age_at_add_band": "1 Same year", "pct_of_titles": 36.98},
+   {"age_at_add_band": "2 1-2 yrs", "pct_of_titles": 26.12},
+   {"age_at_add_band": "3 3-5 yrs", "pct_of_titles": 12.69},
+   {"age_at_add_band": "4 6-10 yrs", "pct_of_titles": 10.44},
+   {"age_at_add_band": "5 11-20 yrs", "pct_of_titles": 8.0},
+   {"age_at_add_band": "6 20+ yrs", "pct_of_titles": 5.67},
+   {"age_at_add_band": "9 Unknown", "pct_of_titles": 0.11}
+  ]
+ },
+ "row_counts": {"titles": 8803, "fact_titles": 8803, "dim_date": 1715, "dim_rating": 14, "dim_country": 122, "dim_genre": 42, "bridge_title_country": 10007, "bridge_title_genre": 19311, "bridge_title_director": 6974, "bridge_title_cast": 64074},
+ "assertions_passed": 17,
+ "assertions_total": 17
+}

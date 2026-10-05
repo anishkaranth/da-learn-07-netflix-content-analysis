@@ -1,0 +1,15 @@
+rating,audience,rating_system,titles,movies,tv_shows,pct_of_titles
+G,1 Kids,MPA film rating,41,41,0,0.47
+NC-17,4 Adults,MPA film rating,3,3,0,0.03
+NR,5 Not rated / unknown,Not rated,83,78,5,0.94
+PG,2 Older kids / family,MPA film rating,287,287,0,3.26
+PG-13,3 Teens,MPA film rating,490,490,0,5.57
+R,4 Adults,MPA film rating,799,797,2,9.08
+TV-14,3 Teens,TV guideline,2160,1427,733,24.54
+TV-G,1 Kids,TV guideline,220,126,94,2.5
+TV-MA,4 Adults,TV guideline,3203,2059,1144,36.39
+TV-PG,2 Older kids / family,TV guideline,863,540,323,9.8
+TV-Y,1 Kids,TV guideline,307,131,176,3.49
+TV-Y7,1 Kids,TV guideline,334,139,195,3.79
+TV-Y7-FV,1 Kids,TV guideline,6,5,1,0.07
+Unknown,5 Not rated / unknown,Not rated,7,5,2,0.08

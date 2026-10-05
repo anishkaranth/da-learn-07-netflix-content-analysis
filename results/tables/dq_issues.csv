@@ -1,0 +1,15 @@
+check_name,affected_rows
+NR and UR merged into NR,83
+cast missing (kept),825
+country list with stray leading/trailing comma - fixed,7
+"country missing (kept, Unknown)",831
+"date_added missing - kept, date key -1",10
+date_added present but unparseable,0
+date_added with leading/trailing spaces - trimmed,88
+director missing (kept),2634
+"duplicate title (same title, type, release year, director) - removed",4
+"movie runtime < 20 or > 240 min (kept, flagged)",29
+rating missing (incl. the 3 repaired) - Unknown,7
+"release year later than year added (kept, flagged)",14
+"runtime stored in rating column - moved to duration, rating set Unknown",3
+total rows removed,4

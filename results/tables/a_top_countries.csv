@@ -1,0 +1,123 @@
+country,titles,movies,tv_shows,movie_pct,as_primary_country
+United States,3689,2752,937,74.6,3210
+India,1046,962,84,91.97,1008
+United Kingdom,806,534,272,66.25,628
+Canada,445,319,126,71.69,271
+France,393,303,90,77.1,213
+Japan,318,119,199,37.42,259
+Spain,232,171,61,73.71,181
+South Korea,231,61,170,26.41,212
+Germany,226,182,44,80.53,103
+Mexico,169,111,58,65.68,134
+China,162,114,48,70.37,100
+Australia,160,94,66,58.75,117
+Egypt,117,102,15,87.18,112
+Turkey,112,82,30,73.21,110
+Hong Kong,104,99,5,95.19,78
+Nigeria,103,94,9,91.26,96
+Italy,100,75,25,75.0,67
+Brazil,97,66,31,68.04,84
+Argentina,90,70,20,77.78,75
+Belgium,90,78,12,86.67,18
+Indonesia,90,86,4,95.56,85
+Taiwan,89,19,70,21.35,85
+Philippines,83,80,3,96.39,80
+Thailand,70,46,24,65.71,65
+South Africa,62,51,11,82.26,41
+Colombia,51,20,31,39.22,40
+Netherlands,50,42,8,84.0,28
+Denmark,48,34,14,70.83,30
+Ireland,46,32,14,69.57,28
+Sweden,42,31,11,73.81,19
+Poland,41,32,9,78.05,30
+Singapore,41,18,23,43.9,28
+United Arab Emirates,37,36,1,97.3,21
+New Zealand,33,25,8,75.76,17
+Lebanon,31,24,7,77.42,24
+Israel,30,19,11,63.33,22
+Norway,30,21,9,70.0,21
+Chile,29,24,5,82.76,22
+Russia,27,11,16,40.74,19
+Malaysia,26,18,8,69.23,23
+Pakistan,24,20,4,83.33,22
+Czech Republic,22,16,6,72.73,6
+Switzerland,19,18,1,94.74,8
+Romania,14,14,0,100.0,10
+Uruguay,14,13,1,92.86,9
+Saudi Arabia,13,9,4,69.23,11
+Austria,12,11,1,91.67,9
+Luxembourg,12,10,2,83.33,1
+Finland,11,7,4,63.64,6
+Greece,11,9,2,81.82,1
+Hungary,11,10,1,90.91,5
+Iceland,11,8,3,72.73,6
+Bulgaria,10,10,0,100.0,5
+Peru,10,10,0,100.0,6
+Qatar,10,10,0,100.0,0
+Jordan,9,7,2,77.78,2
+Kuwait,8,5,3,62.5,7
+Serbia,7,7,0,100.0,3
+Vietnam,7,7,0,100.0,7
+Cambodia,6,6,0,100.0,2
+Kenya,6,6,0,100.0,4
+Morocco,6,6,0,100.0,0
+Portugal,6,6,0,100.0,4
+Ghana,5,5,0,100.0,4
+West Germany,5,3,2,60.0,1
+Bangladesh,4,4,0,100.0,3
+Croatia,4,3,1,75.0,2
+Iran,4,4,0,100.0,1
+Venezuela,4,4,0,100.0,2
+Algeria,3,3,0,100.0,0
+Malta,3,2,1,66.67,0
+Senegal,3,2,1,66.67,1
+Slovenia,3,3,0,100.0,1
+Soviet Union,3,3,0,100.0,1
+Syria,3,2,1,66.67,1
+Ukraine,3,1,2,33.33,2
+Zimbabwe,3,3,0,100.0,1
+Cayman Islands,2,2,0,100.0,0
+Georgia,2,2,0,100.0,2
+Guatemala,2,2,0,100.0,1
+Iraq,2,2,0,100.0,0
+Mauritius,2,1,1,50.0,2
+Namibia,2,2,0,100.0,1
+Nepal,2,2,0,100.0,0
+Afghanistan,1,1,0,100.0,0
+Albania,1,1,0,100.0,0
+Angola,1,1,0,100.0,0
+Armenia,1,1,0,100.0,0
+Azerbaijan,1,0,1,0.0,0
+Bahamas,1,1,0,100.0,0
+Belarus,1,0,1,0.0,1
+Bermuda,1,1,0,100.0,0
+Botswana,1,1,0,100.0,0
+Burkina Faso,1,1,0,100.0,0
+Cameroon,1,1,0,100.0,1
+Cuba,1,0,1,0.0,0
+Cyprus,1,0,1,0.0,1
+Dominican Republic,1,1,0,100.0,0
+East Germany,1,1,0,100.0,0
+Ecuador,1,1,0,100.0,0
+Ethiopia,1,1,0,100.0,0
+Jamaica,1,1,0,100.0,1
+Kazakhstan,1,1,0,100.0,0
+Latvia,1,1,0,100.0,0
+Liechtenstein,1,1,0,100.0,0
+Lithuania,1,1,0,100.0,0
+Malawi,1,1,0,100.0,0
+Mongolia,1,1,0,100.0,0
+Montenegro,1,1,0,100.0,0
+Mozambique,1,1,0,100.0,1
+Nicaragua,1,1,0,100.0,0
+Palestine,1,1,0,100.0,0
+Panama,1,1,0,100.0,0
+Paraguay,1,1,0,100.0,1
+Puerto Rico,1,0,1,0.0,1
+Samoa,1,1,0,100.0,0
+Slovakia,1,1,0,100.0,0
+Somalia,1,1,0,100.0,1
+Sri Lanka,1,1,0,100.0,0
+Sudan,1,1,0,100.0,0
+Uganda,1,1,0,100.0,0
+Vatican City,1,1,0,100.0,0

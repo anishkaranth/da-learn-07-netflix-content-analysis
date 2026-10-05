@@ -1,0 +1,11 @@
+entity,raw_rows,clean_rows,removed_rows,grain
+bridge_title_cast,,64074,,title x cast member
+bridge_title_country,,10007,,title x country
+bridge_title_director,,6974,,title x director
+bridge_title_genre,,19311,,title x genre
+dim_country,,122,,country
+dim_date,,1715,,date added (+ -1 unknown)
+dim_genre,,42,,genre
+dim_rating,,14,,rating
+fact_titles,,8803,,catalogue title
+titles,8807,8803,4,catalogue title

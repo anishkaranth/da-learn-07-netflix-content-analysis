@@ -1,0 +1,15 @@
+rating,audience,rating_system
+G,1 Kids,MPA film rating
+NC-17,4 Adults,MPA film rating
+NR,5 Not rated / unknown,Not rated
+PG,2 Older kids / family,MPA film rating
+PG-13,3 Teens,MPA film rating
+R,4 Adults,MPA film rating
+TV-14,3 Teens,TV guideline
+TV-G,1 Kids,TV guideline
+TV-MA,4 Adults,TV guideline
+TV-PG,2 Older kids / family,TV guideline
+TV-Y,1 Kids,TV guideline
+TV-Y7,1 Kids,TV guideline
+TV-Y7-FV,1 Kids,TV guideline
+Unknown,5 Not rated / unknown,Not rated
